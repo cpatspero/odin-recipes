@@ -1,0 +1,82 @@
+<DOCTYPE! html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Cole's Cooking Class</h1>
+  <p id="description">GET EXCITED TO FURTHER YOUR COOKING JOURNEY</p>
+  <form id="survey-form">
+   <div> 
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="your name" required>
+   </div> 
+   <div> 
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="email" required>
+   </div>
+   <div> 
+    <label id="number-label">Age</label>
+    <input id="number" type="number" placeholder="age (optional)" min="15" max="105" (optional)">
+   </div>
+   <div> 
+    <p>Which option best describes your cooking experience?<p>
+    <select id="dropdown">
+      <option>Select one</option>
+      <option>Jordin Bamsey</option>
+      <option>Bus boy</option>
+      <option>Absolute noob</option>
+    </select>  
+   </div>
+   <div>
+     <p>Would you like to receive promotional emails?</p>
+     <label>
+       <input name="user-recommend" value="yes" type="radio" checked>Yes
+     </label>
+     <label>
+       <input name="user-recommend" value="no" type="radio">No
+     </label>   
+     <label>
+       <input name="user-recommend" value="surprise-me" type="radio">Surprise me
+     </label>
+    </div> 
+    <div>
+     <p>What kind of food would you like to learn how to cook? 
+       <span>(check all that apply)</span>
+     </p>
+     <label id="checkbox">
+       <input type="checkbox" value="breakfast">Breakfast
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="lunch">Lunch
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="dinner">Dinner
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="meal-prep">Meal prep
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="budget-recipes">Budget recipes
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="date-night">Date night
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="15min-meals">15min meals
+     </label> 
+     <label id="checkbox">
+       <input type="checkbox" value="dessert">Dessert
+     </label> 
+    </div>
+    <div>
+      <p>Tell me about your cooking goals</p>
+      <textarea id="comment" placeholder="Trying to impress my father so he will finally show me love instead of shoe..."></textarea>
+    </div>
+    <div>
+      <button id="submit" type="submit">SUBMIT</button>
+    </div> 
+</body>
