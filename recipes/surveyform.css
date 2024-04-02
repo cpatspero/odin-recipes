@@ -1,0 +1,36 @@
+body {
+    background-color: 17252A;
+    color: DEF2F1;
+    text-align: center;
+  }
+  
+  #survey-form {
+    color: DEF2F1;
+    background-color: 3AAFA9;
+    text-align: center;
+    margin: 10px auto;
+    border: solid DEF2F1;
+    width: 400px;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  #name, #email, #number {
+    margin: 1em 0 0 0;
+  }
+  
+  #checkbox {
+    display: block;
+  }
+  
+  #submit {
+    background-color: DEF2F1;
+    margin: 1em 0 1em 0;
+  }
+  
+  #comment {
+    width: 350px;
+    height: 50px;
+  }
